@@ -251,6 +251,11 @@ iframe {
   width: 70vw;
 }
 
+.footer {
+  margin: 2em 2em;
+  background-color: rgba(255, 0, 0, 0.3);
+}
+
 @media only screen and (max-width: 720px) {
    tr {
      display: flex;
@@ -284,30 +289,46 @@ iframe {
     }
 
     #ourcamp li {
-      font-size: 2.6vw;
+      font-size: 4vw;
     }
 
     #signup p {
-      font-size: 2.6vw;
+      font-size: 4vw;
     }
 
     #payinfo p {
-      font-size: 2.6vw;
+      font-size: 4vw;
     }
 
     #secondtable p {
-      font-size: 2.8vw;
+      font-size: 4vw;
       line-height: 1.3em;
     }
     #firsttable p {
-      font-size: 2.8vw;
+      font-size: 4vw;
       line-height: 1.3em;
-
+}
     #sunsetdenoc {
-      margin-left: 0px;
-      margin-top: 0px;
+      margin: 0px;
     }
 
+    h2 {
+      font-size: 4.3vw;
+    }
+
+    header {
+      padding-bottom: 0px;
+    }
+    input {
+      color: #F00;
+      font-family: 'Permanent Marker', cursive;
+      font-size: 5vw;
+      margin: 20px;
+      padding: 10px;
+      width: 10em;
+      border-radius: 6px;
+      border-color: black;
+    }
 }
 
 @media (max-width: 720px){
