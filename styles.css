@@ -1,0 +1,300 @@
+body, html {
+  background-color: black;
+  height: 100vh;
+  margin: 0;
+}
+
+h2 {
+  font-size: 3.4vw
+}
+
+h3 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 2vw;
+}
+
+h4 {
+  font-size: 2vw;
+  font-family: 'Permanent Marker', cursive;
+}
+
+p li {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  color: white;
+}
+
+
+.bg {
+  height: 100%;
+  background-image: url("media/pictures/wildtextures-black-scratched-plate.jpg");
+  background-color: #000000
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  overflow-x: scroll;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+}
+
+nav a {
+  padding: 10px;
+  margin: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  text-decoration: none;
+  list-style-type: none;
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 6px;
+}
+
+nav ul {
+  padding-left: 0px;
+}
+
+nav li {
+  display: inline;
+  font-size: 2vw;
+}
+
+header {
+  color: #FFF;
+  margin-left: 1em;
+  padding: 0em 1em 2em 1em;
+  font-family: 'Permanent Marker', cursive;
+}
+
+hr {
+  margin-top: 2em;
+  position: relative;
+}
+
+#mainhead {
+  font-size: 6vw;
+  text-shadow: 2px 2px 8px  #CCC;
+  transform: rotate(350deg);
+  margin-bottom: 3px;
+  margin-top: 3px;
+}
+header h2 {
+  font-family: 'Open Sans', sans-serif;
+  transform: rotate(350deg);
+  background-color: rgba(255, 0, 0, 0.4);
+  padding-left: 1em;
+  margin-top: 0em;
+  padding-top: 0px;
+}
+header h3 {
+  font-family: 'Open Sans', sans-serif;
+  text-align: right;
+  padding-top: 1em;
+  padding-right: 2em;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  border-collapse: collapse;
+}
+
+#firsttable td {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+#secondtable td {
+  background-color: rgba(20, 20, 20, 0.5);
+  width: 20%;
+  padding: 15px;
+}
+
+
+#baseinfo {
+  text-align: left;
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  vertical-align: text-top;
+  padding: 0em 1em;
+}
+
+
+#baseinfo {
+  padding-bottom: 2em;
+}
+
+#baseinfo {
+  padding-top: 1em;
+}
+
+#campinfo {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #CCC;
+  margin: 2em;
+  vertical-align: top;
+}
+
+
+#sunsetdenoc {
+  width: 100%;
+  vertical-align: center;
+  margin: 6px;
+}
+
+#secondtable {
+  margin-top: 40px
+}
+
+#campmap {
+    width: 70%;
+    float: right;
+    margin-top: 1px;
+    margin-right: 8px;
+}
+.inforow {
+  color: white;
+}
+
+.column {
+  /* height: 300px; */
+  border: 1px solid white;
+  border-radius: 6px;
+  background-color: rgba(255, 0, 0, 0.2);
+  float: left;
+  width: 30%;
+}
+
+.column h3, h4{
+  text-align: center;
+}
+
+.column p {
+  padding: 0em 1.5em;
+}
+
+.row {
+  padding-top: 1.5em;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+  color: white;
+}
+
+#submitup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  color: #F00;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1.5vw;
+  margin: 20px;
+  padding: 10px;
+  width: 10em;
+  border-radius: 6px;
+  border-color: black;
+}
+
+#payinfo {
+  text-align: center;
+}
+
+#venmopic {
+  border: 2px solid black;
+  border-radius: 6px;
+  width: 80%;
+  margin-bottom: 3em;
+}
+#ourcamp li {
+  font-size: 1.8vw;
+  line-height: 3em;
+}
+#signup p {
+  font-size: 1.8vw;
+  line-height: 1.8em;
+}
+
+#payinfo p {
+  font-size: 1.7vw;
+}
+#payinfo h4 {
+  background-color: black;
+}
+.googlemap {
+  text-align: center;
+  padding: 2em;
+}
+.footer {
+  color: white;
+  font-size: 0.8vw;
+  text-align: center;
+  font-family: 'permanent marker', cursive;
+}
+#secondtable p {
+  font-size: 2vw;
+  line-height: 1.3em;
+}
+#firsttable p {
+  font-size: 2vw;
+  line-height: 1.3em;
+}
+
+iframe {
+  width: 70vw;
+}
+
+@media only screen and (max-width: 720px) {
+   tr {
+     display: flex;
+     flex-direction: column;
+   }
+   td {
+     align-self: center;
+  }
+    .row {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .column {
+      align-self: center;
+      width: 70vw;
+      margin: 1em;
+    }
+    #mapcontainer {
+      text-align: center;
+    }
+    #campmap {
+      width: 55vw;
+      float: none;
+    }
+    h3 {
+      font-size: 1.2em;
+    }
+    h4 {
+      font-size: 1em;
+    }
+    p {
+      font-size: 20em;
+    }
+    #sunsetdenoc {
+      margin-left: 0px;
+      margin-top: 0px;
+    }
+
+}
+
+@media (max-width: 720px){
+   #secondtable td {
+    width:95%;
+    display: block;
+  }
+}
