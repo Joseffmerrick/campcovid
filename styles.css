@@ -234,7 +234,7 @@ input {
 }
 .footer {
   color: white;
-  font-size: 0.8vw;
+  font-size: 0.7vw;
   text-align: center;
   font-family: 'permanent marker', cursive;
 }
@@ -282,9 +282,27 @@ iframe {
     h4 {
       font-size: 1em;
     }
-    p {
-      font-size: 20em;
+
+    #ourcamp li {
+      font-size: 2.6vw;
     }
+
+    #signup p {
+      font-size: 2.6vw;
+    }
+
+    #payinfo p {
+      font-size: 2.6vw;
+    }
+
+    #secondtable p {
+      font-size: 2.8vw;
+      line-height: 1.3em;
+    }
+    #firsttable p {
+      font-size: 2.8vw;
+      line-height: 1.3em;
+
     #sunsetdenoc {
       margin-left: 0px;
       margin-top: 0px;
